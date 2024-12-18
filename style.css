@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.my-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card {
+  width: 350px;
+  height: 230px;
+  font-size: 40px;
+  font-weight: 700px;
+  text-align: center;
+  align-content: center;
+}
+.blue-card {
+  background-color: blue;
+  order: 1;
+}
+.red-card {
+  background-color: red;
+  order: -2;
+}
+.brown-card {
+  background-color: brown;
+  order: -1;
+}
+.kakoyto-card {
+  background-color: greenyellow;
+  order: 2;
+}
+.nikakoyto-card {
+  background-color: hotpink;
+  order: -3;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .bg-image-container {
+  border: 1px solid rebeccapurple;
+  width: 1200px;
+  height: 700px;
+  background-image: url(./image/hero-6-cover.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-style: italic;
+  color: rgb(68, 0, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+.outer-container {
+  padding: 120px;
+  position: relative;
+}
+.wrapper {
+  width: 300px;
+  background-color: burlywood;
+  padding: 16px;
+  position: relative;
+}
+.sale-badge {
+  background-color: blue;
+  border-radius: 12px;
+  color: white;
+  padding: 8px 12px;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+}
